@@ -41,7 +41,7 @@ _Note_: Your cluster IP could change. You can obtain your minikube cluster ip us
 
 **(6)** Access `k8s-external-name-svc-spike.io` and you should see httpbin.org landing page.
 
-`curl k8s-external-name-svc-spike` (or) `open http://k8s-external-name-svc-spike.io`
+`curl k8s-external-name-svc-spike.io` (or) `open http://k8s-external-name-svc-spike.io`
 
 #### Cleanup
 1. Delete the entry from `/etc/hosts`
@@ -59,7 +59,7 @@ _Note_: If you have removed your `/etc/hosts` entry, you may have to add it agai
 
 **(6)** Access `k8s-external-name-svc-spike.io` using https & you should see httpbin.org landing page.
 
-`curl -k https://k8s-external-name-svc-spike` (or) `open https://k8s-external-name-svc-spike.io`
+`curl -k https://k8s-external-name-svc-spike.io` (or) `open https://k8s-external-name-svc-spike.io`
 
 #### References
 * https://kubernetes.io/docs/concepts/services-networking/service/#externalname
