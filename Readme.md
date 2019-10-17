@@ -1,6 +1,6 @@
 ### K8s spike for service type external name on Minikube
 
-This spike explains how to create a 'ExternalName' type kubernetes service on Minikube.
+This spike explains how to create a ['ExternalName'](https://kubernetes.io/docs/concepts/services-networking/service/#externalname) type kubernetes service on Minikube.
 
 #### Overview
 We will configure, 
@@ -60,6 +60,10 @@ _Note_: If you have removed your `/etc/hosts` entry, you may have to add it agai
 **(6)** Access `k8s-external-name-svc-spike.io` using https & you should see httpbin.org landing page.
 
 `curl -k https://k8s-external-name-svc-spike` (or) `open https://k8s-external-name-svc-spike.io`
+
+#### References
+* https://kubernetes.io/docs/concepts/services-networking/service/#externalname
+* https://akomljen.com/kubernetes-tips-part-1/
 
 🏁 Happy accessing external DNS via your k8s cluster.
 
